@@ -1,2 +1,31 @@
-# avl-tree-text-analyzer-cpp
-A C++ project implementing a self-balancing AVL tree for efficient word frequency counting. This program analyzes text files, finds unique words, track word occurrences, and print results in alphabetical order to ease of viewing.
+# AVL Tree Text Analyzer
+
+
+
+## Features
+
+- **:** 
+
+- **:** 
+
+- **:** 
+
+- **:** 
+
+## How does it work?
+
+
+## Installation and Use
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone 
+   ```
+
+2. Use the provided makefile to compile:
+
+   ```bash
+   make
+   ```
+
