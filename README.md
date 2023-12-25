@@ -44,7 +44,8 @@ An unbalanced tree is no longer an AVL Tree, so when a new node is added, the tr
    ./analyze < file_name.txt > output_name
    ```
 
-   For example:
+4. An example usage with the included text file:
+
    ```bash 
    ./analyze < test.txt > test_output
    ```
