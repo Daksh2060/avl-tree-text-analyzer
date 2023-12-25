@@ -12,6 +12,9 @@ This C++ program is a simple text file analyzer, utilizing a self-balancing AVL 
 
 ## How does it work?
 
+The program scans through the text file, storing each unique word it finds into a node, along with the number of occurences of that word. The node is then added to the AVL Tree data strcutre. An AVL tree is a self-balancing binary search tree where the height difference between the left and right subtrees of any node is always kept to a minimum, in this case 1, ensuring logarithmic time complexity for search, insertion, and deletion operations. When a node is added or removed, the tree automatically adjusts its structure through rotations to maintain balance. This height-balancing property helps optimize the efficiency of common tree operations making AVL trees valuable in applications working with large datasets, where quick performance is essential.
+
+
 
 ## Installation and Use
 
