@@ -23,12 +23,30 @@ An unbalanced tree is no longer an AVL Tree, so when a new node is added, the tr
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone 
+   git clone https://github.com/Daksh2060/avl-tree-text-analyzer-cpp
    ```
 
 2. Use the provided makefile to compile:
 
-   ```bash
-   make
+   ```bash 
+   make analyze
    ```
+
+3. To run program on a textfile you have two choices:
+
+   You can input the text file and read the results in the terminal (not recommended for large files):
+   ```bash 
+   ./analyze < file_name.txt
+   ```
+
+   Or you can generate the results as an output file: 
+   ```bash 
+   ./analyze < file_name.txt > output_name
+   ```
+
+   For example:
+   ```bash 
+   ./analyze < test.txt > test_output
+   ```
+
 
